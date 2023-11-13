@@ -40,29 +40,23 @@ nav {
 
 
 main{
-    position: relative;
     width: 100%;
-    top: 100px;
+    margin-top: 100px;
 }
 
 .info{
-    position: relative;
-    width: 100%;
-    height: 600px;
-    left: 0px;
-    top: 7vw;
-}
-
-.info-div{
-    position: absolute;
-    left: 5%;
-    width: 50%;
-}
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    align-items: center;
+    justify-content: space-between;
+} 
 .info-img{
-    position: absolute;
-    width: 30%;
-    left: 65%;
-}
+    width: 35vw;
+} 
+.info-div{
+    width: 40%;
+} 
 .info-div p{
     color: #FFF;
     font-family: Roboto;
@@ -72,7 +66,6 @@ main{
     line-height: normal;
 }
 .info-butt{
-    width: 70%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -142,25 +135,19 @@ main{
 }
 
 .menu{
-    position: relative;
     width: 100%;
-    height: 40%;
-    left: 0px;
-    top:0;
 }
 .menu-div{
-    position: relative;
-    left: 88px;
-    margin: 10% 0%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
 .menu-img{
     width: 30%;  
 }
 .menu-info{
-    position: absolute;
     width: 50%;
-    left: 40%;
-    top: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
